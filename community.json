@@ -1779,5 +1779,17 @@
     "npm": "dsh-widget-board",
     "category": "ui",
     "subcategory": "panel"
+  },
+  {
+  "id": "envoy-dsh",
+  "name": "Envoy 读料",
+  "nameEn": "Envoy Reader",
+  "author": "regrevia",
+  "description": "把模型自己读不下来的链接读成可引用的材料：视频（B 站/YouTube 等）给 [mm:ss] 字幕片段，没有字幕就用本地 Whisper 转写；公众号、知乎、小红书图文给全文与原图（图文帖按图序 OCR 合成正文）；PDF/Office 给正文与页图；没有 gh/git 的环境里也能读 GitHub 仓库、issue、PR。正文带来源定位，没读到的范围显式列为待覆盖，不假装读完；可关闭的登录浮层在后台静默关掉继续读，只有真登录墙才暂停并出示站点二维码。装在本机，Claude Code / Codex / DeepSeek Harness 三个宿主通用，直连不通时自动回退到你信任的代理。",
+  "descriptionEn": "Turns links the model cannot read by itself into citable material: video (Bilibili, YouTube and more) comes back as [mm:ss] subtitle segments, or a local Whisper transcript when there is no track; WeChat, Zhihu and Xiaohongshu image posts come back as full text plus original images (OCR merged in reading order); PDFs and Office documents as body text with page images; GitHub repo, issue and PR links work without gh or git. Text carries source locators, ranges that were not read are listed as outstanding instead of being presented as complete, dismissible login overlays are closed in the background, and only a real wall stops to show the site’s own QR sign-in. Runs locally for Claude Code, Codex and DeepSeek Harness, and falls back to your trusted proxy when a direct connection fails.",
+  "repo": "https://github.com/regrevia/Envoy",
+  "npm": "envoy-dsh",
+  "category": "knowledge",
+  "subcategory": "reading"
   }
 ]
