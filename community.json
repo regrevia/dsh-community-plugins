@@ -791,6 +791,18 @@
     "subcategory": "memory"
   },
   {
+    "id": "dsh-mobile-use",
+    "name": "真手机接入",
+    "nameEn": "Mobile Use",
+    "author": "regrevia",
+    "description": "把真手机装进 DSH 右栏：实时镜像可点击，圈选标注带着圈图和控件回到会话，模型可读界面文本树而不必截图（adb_ui 120 ms）。画面只走本机回环、免 MCP，需要宿主安装 adb 与 ffmpeg。",
+    "descriptionEn": "Put a real phone in the DSH right sidebar: a live mirror you can click, circled annotations returning with the crop and controls, and a UI text tree the model can read without screenshots (adb_ui 120 ms). Video stays on the local loopback, no MCP required; the host needs adb and ffmpeg.",
+    "repo": "https://github.com/regrevia/dsh-mobile-use",
+    "npm": "dsh-mobile-use",
+    "category": "integration",
+    "subcategory": "remote"
+  },
+  {
     "id": "dsh-notifier",
     "name": "dsh-notifier",
     "nameEn": "dsh-notifier",
