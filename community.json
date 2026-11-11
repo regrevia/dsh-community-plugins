@@ -1449,6 +1449,18 @@
     "subcategory": "bridge"
   },
   {
+    "id": "envoy-dsh",
+    "name": "Envoy 链接材料",
+    "nameEn": "Envoy Link Reader",
+    "author": "regrevia",
+    "description": "把网页、公众号文章、PDF、图片帖、B 站视频与本地视频取成带来源定位的材料：视频关键帧与转写带 [mm:ss]，正文切片带来源坐标；读不到的部分标记为未覆盖，不写成结论。Claude Code、Codex、DeepSeek Harness 各有插件。",
+    "descriptionEn": "Turn web pages, WeChat posts, PDFs, image posts, Bilibili videos and local media into source-located material: video keyframes and transcripts carry [mm:ss], text segments carry source coordinates. Unread ranges, missing captions and login walls are reported as uncovered rather than written up as conclusions. Plugins for Claude Code, Codex and DeepSeek Harness.",
+    "repo": "https://github.com/regrevia/Envoy/tree/main/integrations/dsh/envoy-dsh",
+    "npm": "envoy-dsh",
+    "category": "knowledge",
+    "subcategory": "reading"
+  },
+  {
     "id": "slumberpavilion",
     "name": "沉眠阁",
     "nameEn": "Slumber Pavilion",
