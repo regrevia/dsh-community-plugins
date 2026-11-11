@@ -461,6 +461,18 @@
     "subcategory": "cleanup"
   },
   {
+    "id": "dsh-fast-mode",
+    "name": "DSH 快速模式",
+    "nameEn": "DSH Fast Mode",
+    "author": "regrevia",
+    "description": "按步骤自适应思考档位，并按档位批量并行工具调用；零依赖，只使用当前路由真正声明过的档位，官方 API 与自建网关都支持。",
+    "descriptionEn": "Adapts the reasoning effort tier per step and batches parallel tool calls by tier. Zero dependencies, uses only tiers declared by the current route, and works with both the official API and self-hosted gateways.",
+    "repo": "https://github.com/regrevia/dsh-fast-mode",
+    "npm": "dsh-fast-mode",
+    "category": "tools",
+    "subcategory": "model"
+  },
+  {
     "id": "dsh-flash-presets",
     "name": "DSH Flash 精简预设",
     "nameEn": "DSH Flash Lean Presets",
