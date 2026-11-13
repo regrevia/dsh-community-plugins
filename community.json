@@ -1792,4 +1792,16 @@
   "category": "knowledge",
   "subcategory": "reading"
   }
+,  {
+    "id": "dsh-inner-browser-use",
+    "name": "内嵌浏览器操控",
+    "nameEn": "Inner Browser Use",
+    "author": "regrevia",
+    "description": "让 Agent 直接操控 Web GUI 右栏里的那一台浏览器：零依赖 CDP，多页签、登录态留存、按名字或编号点控件、长 DOM 过滤、遮挡检测与截图，画面只出现在本会话右栏。",
+    "descriptionEn": "Lets the agent drive the browser in the Web GUI's right column: zero-dependency CDP, tabs, kept sign-ins, clicking controls by words or number, long-DOM filtering, occlusion checks and screenshots, mirrored only in the calling session's column.",
+    "repo": "https://github.com/regrevia/dsh-inner-browser-use",
+    "npm": "dsh-inner-browser-use",
+    "category": "tools",
+    "subcategory": "browser"
+  }
 ]
